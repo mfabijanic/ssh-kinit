@@ -1,0 +1,27 @@
+{
+    "keepass": {
+        "filename": "/home/username/path_to_db.kdbx",
+        "keyfile": ""
+    },
+    "ssh": {
+        "DEFAULT": {
+            "port": "22",
+            "timeout": "3"
+        }
+    },
+    "hosts": {
+        "hostname1-realm0-tier1": {
+            "keepass_entry": "IdM: EXAMPLE.COM Admin 1",
+            "realm": "EXAMPLE.COM"
+        },
+        "hostname2-realm0-tier2": {
+            "keepass_entry": "IdM: EXAMPLE.COM Admin 2",
+            "realm": "EXAMPLE.COM"
+        },
+        "hostname-realm1-tier2": {
+            "keepass_entry": "AD: EXAMPLE2.COM Tier 2",
+            "realm": "EXAMPLE2.COM",
+            "disabled": "1"
+        }
+    }
+}
